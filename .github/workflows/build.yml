@@ -21,11 +21,17 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+    # 使用系统 gradle 生成 wrapper
+    - name: Setup Gradle Wrapper
+      run: |
+        # 安装临时 gradle
+        sudo apt-get update && sudo apt-get install -y gradle
+        # 生成 wrapper 文件
+        gradle wrapper --gradle-version 8.4
+        chmod +x gradlew
 
     - name: Build Debug APK
-      run: ./gradlew assembleDebug
+      run: ./gradlew assembleDebug --no-daemon
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
