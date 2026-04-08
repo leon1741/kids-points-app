@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 卡通可爱风格配色 -->
+    <color name="primary">#FFB74D</color>
+    <color name="primary_variant">#F57C00</color>
+    <color name="secondary">#81C784</color>
+    <color name="secondary_variant">#388E3C</color>
+    <color name="accent">#FF8A65</color>
+    <color name="background">#FFF8E1</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#FF6B6B</color>
+
+    <!-- 儿童友好色彩 -->
+    <color name="happy_green">#4CAF50</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="sad_red">#F44336</color>
+    <color name="sky_blue">#64B5F6</color>
+    <color name="purple">#BA68C8</color>
+    <color name="pink">#F06292</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">积分小能手</string>
+    <string name="parent_mode">家长模式</string>
+    <string name="child_mode">儿童模式</string>
+    <string name="settings">设置</string>
+    <string name="rules">每日任务</string>
+    <string name="gifts">礼品兑换</string>
+    <string name="history">积分记录</string>
+    <string name="add_rule">添加任务</string>
+    <string name="edit_rule">编辑任务</string>
+    <string name="delete_rule">删除任务</string>
+    <string name="complete">完成</string>
+    <string name="violation">违规</string>
+    <string name="redeem">兑换</string>
+    <string name="current_points">当前积分</string>
+    <string name="rule_name">任务名称</string>
+    <string name="points">积分</string>
+    <string name="gift_name">礼品名称</string>
+    <string name="cost">所需积分</string>
+    <string name="add_gift">添加礼品</string>
+    <string name="enter_password">请输入家长密码</string>
+    <string name="set_password">设置密码</string>
+    <string name="change_password">修改密码</string>
+    <string name="password_hint">4-6 位数字</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="incorrect_password">密码错误</string>
+    <string name="password_mismatch">两次密码不一致</string>
+    <string name="password_set_success">密码设置成功</string>
+    <string name="password_changed">密码已修改</string>
+    <string name="category">分类</string>
+    <string name="daily_life">生活习惯</string>
+    <string name="study">学习任务</string>
+    <string name="manners">礼貌行为</string>
+    <string name="exercise">运动健康</string>
+    <string name="other">其他</string>
+</resources>
